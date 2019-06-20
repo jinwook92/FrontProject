@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+<script src="js/gnb.js"></script>
+<script type="text/javascript" src="js/slide_banner.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" href="style/hearthstone.css">
+<style>
+    #hge>#gnb>li{width:120px;float:left;text-align:center;position:relative;}
+#hge>#gnb>li>ul{width:130px;position:absolute;left:0;top:30px;border:1px solid #ccc;background:black;padding:5px;display:none;}
+#hge #gnb li ul.on{display:block;}
+    #hge #gnb li ul .games{
+        width:90px; height: 50px;
+    }
+#hge #gnb li ul li a{display:block;border-bottom:1px solid gray;padding:8px;}
+#hge #gnb li ul li a:hover,#hge #gnb li ul li a:active,#hge #gnb li ul li a:focus{color:black;position:relative;}
+#hge>#gnb>li>ul>li{position:relative;}
+#hge>#gnb>li>ul>li>ul{width:180px;position:absolute;right:-120px;top:0;border:1px solid #ccc;background:black;padding:5px;display:none;}
+#hge .close{position:absolute;left:-99999%;}
+a, a:link, a:visited {color: black;									  text-decoration:none;}
+ul {list-style-type: none;}
+    </style>
+<body>
+    <img class="ground" src="img/ice3.jpg" alt="back">
+	<div id="wrap">
+	<header><a href="mainpage.html">
+	    <img src="img/blzlogo1.png" alt="logo"></a>
+	</header>
+   <nav id="hge">
+        <ul id="gnb">
+            <li><a href="#">HISTORY</a></li>
+            <li><a href="#">MOBILE</a></li>
+            <li><a href="#">GAMES</a>
+            <ul>
+                <li><a href="hearthstone.html"><img class="games" src="img/hs1.png" alt="hs"></a></li>
+                <li><a href="#"><img class="games" src="img/wow.jpeg" alt="wow"></a></li>
+                <li><a href="#"><img class="games" src="img/dialogo1.png" alt="dia"></a></li>
+            </ul>
+            </li>
+            <li><a href="#">E-SPORTS</a></li>
+        </ul>
+        <a href="#" class="close">close</a>
+    </nav>
+    <section id="logo">
+        <img src="img/hs1.png" alt="hearth">
+    </section>
+    <section id="intro1" class="big">
+        <h2>놀랄만큼 쉽고 재밌습니다!</h2>
+        <img src="img/screenshot1.jpg" alt="board" class="introimg">
+    </section>
+    <section class="small">
+      <h2>놀랄만큼 쉽고 재밌습니다!</h2>
+      <img src="img/phonescreen1.jpg" alt="phone1" class="introimg1">
+    </section>
+    <section id="intro2" class="big">
+        <h2>카드를 수집하여 당신의 덱을 완성하세요!</h2>
+        <img src="img/screenshot3.jpg" alt="card" class="introimg">
+        </section>
+        <section class="small">
+        <h2>카드를 수집하여 당신의 덱을 완성하세요!</h2>
+        <img src="img/phonescreen2.jpg" alt="phone2" class="introimg1">
+        
+    </section>
+    <section id="intro3" class="big">
+        <h2>언제 어디서든 상대와 플레이하세요!</h2>
+        <img src="img/screenshot2.jpg" alt="battle" class="introimg">
+    </section>
+    <section class="small">
+         <h2>언제 어디서든 상대와 플레이하세요!</h2>
+         <img src="img/phonescreen3.jpg" alt="phone3" class="introimg1">
+    </section>
+    <section id="card" class="big">
+        <h2>현재 정규전에서 사용할 수 있는 카드세트입니다!</h2>
+        <ul>
+        <li><a href="#"><img src="img/blackrock.png" alt="bm"></a></li>
+        <li><a href="#"><img src="img/grand.png" alt="gt"></a></li>
+        <li><a href="#"><img src="img/league.png" alt="le"></a></li>
+        <li><a href="#"><img src="img/whispers.png" alt="wo"></a></li>
+        <li><a href="#"><img src="img/karazhan.png" alt="mk"></a></li>
+        <li><a href="#"><img src="img/gadgetzan.png" alt="mg"></a></li>
+        </ul>
+    </section>
+    <section class="small">
+         <h2>현재 정규전에서 사용할 수 있는 카드세트입니다!</h2>
+         <ul>
+             
+             <li><a href="#"><img src="img/mountain.jpeg" alt="pbm" class="standard"></a></li>
+             <li><a href="#"><img src="img/tournament.jpg" alt="pgt" class="standard"></a></li>
+             <li><a href="#"><img src="img/explorers.jpg" alt="ple" class="standard"></a></li>
+             <li><a href="#"><img src="img/oldgod.png" alt="pwo" class="standard"></a></li>
+             <li><a href="#"><img src="img/karazhan.jpg" alt="pmk" class="standard"></a></li>
+             <li><a href="#"><img src="img/streets.jpg" alt="pmg" class="standard"></a></li>
+         </ul>
+    </section>
+    <footer>
+        <p>copyright</p>
+    </footer>
+    </div>
+</body>
+</html>
